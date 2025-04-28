@@ -1,0 +1,78 @@
+.pick-list-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-x: auto; /* Enable horizontal scrolling on small screens */
+}
+
+.pick-list-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  min-width: 600px; /* Ensure table doesn't get too narrow */
+}
+
+.pick-list-table th,
+.pick-list-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.pick-list-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.pick-list-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
+  color: #666;
+}
+
+.error {
+  text-align: center;
+  padding: 20px;
+  color: #d32f2f;
+  background-color: #ffebee;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .pick-list-container {
+    padding: 10px;
+  }
+
+  .pick-list-table th,
+  .pick-list-table td {
+    padding: 8px;
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pick-list-container {
+    padding: 5px;
+  }
+
+  .pick-list-table th,
+  .pick-list-table td {
+    padding: 6px;
+    font-size: 0.85em;
+  }
+
+  .loading,
+  .error {
+    padding: 15px;
+    font-size: 1em;
+  }
+} 

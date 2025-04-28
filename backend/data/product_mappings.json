@@ -1,0 +1,76 @@
+{
+  "boxes": [
+    {
+      "box_id": "P-VAL-BOX",
+      "box_name": "Valentines Box",
+      "box_price": 190,
+      "box_products": [
+        {
+          "product_id": "P-RED-ROSES",
+          "product_name": "Red Roses Bouquet",
+          "product_price": 75
+        },
+        {
+          "product_id": "P-CHOCOLATES",
+          "product_name": "Box of chocolates",
+          "product_price": 25
+        },
+        {
+          "product_id": "P-LOVE-CARD",
+          "product_name": "Love card",
+          "product_price": 5
+        },
+        {
+          "product_id": "P-PERFUME",
+          "product_name": "Women's perfume",
+          "product_price": 85
+        }
+      ]
+    },
+    {
+      "box_id": "P-BIRTHDAY-BOX",
+      "box_name": "Birthday Box",
+      "box_price": 115,
+      "box_products": [
+        {
+          "product_id": "P-BIRTHDAY-CUPCAKE",
+          "product_name": "Birthday cupcake",
+          "product_price": 10
+        },
+        {
+          "product_id": "P-VISA-GIFT-CARD",
+          "product_name": "$100 Visa Gift Card",
+          "product_price": 100
+        },
+        {
+          "product_id": "P-BIRTHDAY-CARD",
+          "product_name": "Birthday card",
+          "product_price": 5
+        }
+      ]
+    },
+    {
+      "box_id": "P-CLIENT-BOX",
+      "box_name": "Client Gift Box",
+      "box_price": 95,
+      "box_products": [
+        {
+          "product_id": "P-WINE",
+          "product_name": "Bottle of wine",
+          "product_price": 45
+        },
+        {
+          "product_id": "P-FRUIT-BASKET",
+          "product_name": "Fruit basket",
+          "product_price": 35
+        },
+        {
+          "product_id": "P-PEN",
+          "product_name": "Pen",
+          "product_price": 15
+        }
+      ]
+    }
+  ]
+}
+  
